@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    box-sizing: border-box;
+}
+
+input, h3 {
+    font-family: "Zen Loop";
+    font-size: 36px;
+    
+}
+
+::placeholder {
+    color: #000;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+body {
+    background-image: linear-gradient(120deg, #595B5A, #14C3A2, #0DE5A8, #B8FD99); 
+    min-height: 100vh;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.textb {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: none;
+    padding: 10px;
+    outline: none;
+    
+    color: #000;
+    letter-spacing: 2px;
+}
+
+h3 {
+    margin: 10px 0;
+    color: white;
+}   
+
+.task {
+    width: 100%;
+    background: rgba(255, 255, 255, .3);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+
+}
+
+.task i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task {
+    background-color: rgba(20, 195, 162, .3)
+}
+
+
+/* Fit the canvas to the page width. */
+canvas {
+    display: block;
+}
